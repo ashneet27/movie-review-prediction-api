@@ -9,5 +9,5 @@ router = APIRouter(
 )
 
 @router.get("/info", response_model=MlModel)
-def getModelAccuracy():
+def getModelInfo():
     return MlModelService.modelInfo()
