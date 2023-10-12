@@ -1,9 +1,12 @@
 import re
 from bs4 import BeautifulSoup
+import nltk
 from nltk.corpus import stopwords
 
 
 class Tokenizer:
+  
+  nltk.download("stopwords")
 
   def clean(self, text):
       no_html = BeautifulSoup(text).get_text()
