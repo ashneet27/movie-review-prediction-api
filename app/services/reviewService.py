@@ -4,7 +4,7 @@ from app.models.sentiment import Sentiment
 from app.services.mlModelService import MlModelService
 
 
-class reviewService:
+class ReviewService:
 
     @classmethod
     def predictReviewSentiment(cls, review: str) -> Sentiment:
