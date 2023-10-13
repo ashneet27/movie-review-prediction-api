@@ -18,4 +18,4 @@ Multinomial Naive Bayes based model for predicting movie review sentiment expose
 ## Try out the API
 You can now see the OpenAPI docs and try out the API endpoints by hitting the `http://localhost:8000/docs` endpoint which would bring up a page that looks like this:
 
-![](docs/images/openApi.png)
+![Alt text](image.png)
